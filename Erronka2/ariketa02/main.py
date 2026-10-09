@@ -1,4 +1,5 @@
 from ui.cli import irakurri_zenbaki_ez_negatiboa
+
 from model.inbentarioa import Inbentarioa
 from model.produktua import Produktua
 
