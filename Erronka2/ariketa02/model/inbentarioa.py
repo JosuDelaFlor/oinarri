@@ -4,7 +4,7 @@ class Inbentarioa:
     def __init__(self):
         self.__produktuak: list[Produktua] = []
 
-    def gehitu_produktua(self, izena: str, kopurua: int, prezioa: float,) -> Produktua:
+    def gehitu_produktua(self, izena: str, kopurua: int, prezioa: float) -> Produktua:
         produktua_berria: Produktua = Produktua(izena, kopurua, prezioa)
         self.__produktuak.append(produktua_berria)
         
