@@ -14,7 +14,7 @@ def irakurri_kopurua() -> None:
 def erakutsi_inbentarioa(inbentarioa: Inbentarioa) -> None:
     print("\n=== Amaierako inbentarioa ===")
     if not inbentarioa:
-        print("Inbentarioa hutsik dago.")
+        print("Inbentarioa hutsik dago")
     else:
         for produktua in inbentarioa:
             print(produktua.__str__())
