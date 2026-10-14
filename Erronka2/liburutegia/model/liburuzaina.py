@@ -1,5 +1,4 @@
-from liburua import Liburua
-
+from liburutegia.model.liburua import Liburua
 
 class Liburuzaina:
     def __init__(self, izena: str):

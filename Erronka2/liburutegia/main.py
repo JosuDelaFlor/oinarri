@@ -1,6 +1,6 @@
-from liburua import Liburua
-from erabiltzailea import Erabiltzailea
-from liburuzaina import Liburuzaina
+from liburutegia.model.liburua import Liburua
+from liburutegia.model.erabiltzailea import Erabiltzailea
+from liburutegia.model.liburuzaina import Liburuzaina
 
 
 def main():
