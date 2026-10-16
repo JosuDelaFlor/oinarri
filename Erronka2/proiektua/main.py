@@ -4,7 +4,6 @@ from datetime import datetime
 from helper.csv_helper import CSVHelper
 from model.ordenagailua_dto import OrdenagailuaDto
 
-
 def main():
     file_path_csv_read = Path(__file__).parent / "data" / "ordenagailuak.csv"
     file_path_csv_write = Path(__file__).parent / "data" / "ordenagailuak_berrial.csv"
@@ -33,7 +32,6 @@ def read_data_from_csv(file_path: str | Path) -> None:
     data: list[list[str]] = CSVHelper.read_csv(str(file_path))
     for row in data:
         print(row)
-
 
 def write_data_to_csv(file_path: str | Path, data: list[list[object]]) -> None:
     success: bool = CSVHelper.write_csv(str(file_path), data)
